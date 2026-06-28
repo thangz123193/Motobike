@@ -1,0 +1,7 @@
+Đặt vào đây 3 file .jar sau (xem hướng dẫn chi tiết trong README.md ở thư mục gốc, mục 4.3):
+
+1. mssql-jdbc-12.x.x.jreXX.jar   (Microsoft JDBC Driver for SQL Server)
+2. jakarta.servlet.jsp.jstl-api-3.0.0.jar
+3. jakarta.servlet.jsp.jstl-3.0.1.jar
+
+Sau khi copy file vào đây, vào NetBeans: chuột phải project -> Properties -> Libraries -> Compile -> Add JAR/Folder, chọn cả 3 file trên.
