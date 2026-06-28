@@ -20,10 +20,6 @@
         <c:if test="${param.error == 'locked'}">
             <div class="alert alert-error">Your account has been locked.</div>
         </c:if>
-        <c:if test="${param.registered == '1'}">
-            <div class="alert alert-success">Account created. Please sign in.</div>
-        </c:if>
-
         <form method="post" action="${pageContext.request.contextPath}/login">
             <c:if test="${not empty param.redirect}">
                 <input type="hidden" name="redirect" value="${param.redirect}">
@@ -36,9 +32,6 @@
 
             <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
-        <div class="auth-footer">
-            Don't have an account? <a href="${pageContext.request.contextPath}/register">Sign up</a>
-        </div>
         <div class="auth-footer text-muted">
             Demo: admin/123456 &middot; staff01/123456 &middot; customer01/123456
         </div>

@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import model.User;
 
-@WebServlet(name = "RootServlet", urlPatterns = {"/"})
+@WebServlet(name = "RootServlet", urlPatterns = {"/home"})
 public class RootServlet extends HttpServlet {
 
     @Override

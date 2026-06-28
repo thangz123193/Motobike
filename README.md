@@ -162,7 +162,7 @@ kết nối trước khi chạy toàn bộ web app.
 1. Chuột phải vào project → **Clean and Build**
 2. Chuột phải vào project → **Run** (hoặc nút ▶ Run Project)
 3. NetBeans sẽ deploy lên Tomcat và mở browser tại
-   `http://localhost:8080/MotorbikeRepairShop/`
+   `http://localhost:8080/Motobike/`
 4. Bạn sẽ được chuyển tới trang đăng nhập. Dùng tài khoản demo ở Bước 3.
 
 ---
